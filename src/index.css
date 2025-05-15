@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+    --color-white: #ffffff;
+    --color-gray: #969696;
+    --color-lightpurple: #7900C2;
+    --color-purple: #6100C2;
+    --glass-blur-gradient: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.82) 0%,
+        rgba(255, 255, 255, 0.78) 100%
+    );
+     --color-dark-gradient: linear-gradient(
+    #37312A 49%,
+    #191817 95%,
+    #191817 100%
+  );
+}
