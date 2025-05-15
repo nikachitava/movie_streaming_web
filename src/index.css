@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html, body {
+    background-color: #21201E;
+}
+
 @theme {
     --color-white: #ffffff;
     --color-gray: #969696;
@@ -15,4 +19,11 @@
     #191817 95%,
     #191817 100%
   );
+
+}
+
+@layer utilities {
+    .container {
+        @apply max-w-[1440px] mx-auto
+    }
 }
